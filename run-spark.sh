@@ -1,4 +1,4 @@
-# Run application locally on 8 cores
+# Run application locally on 2 cores
 ./bin/spark-submit \
 --class FRIDRSS.RSSStream.JavaNetworkWordCount \
 --master local[2] \
@@ -24,4 +24,6 @@ localhost 9999
 #--total-executor-cores 100 \
 #/path/to/examples.jar \
 #1000
+
+
 

@@ -21,3 +21,4 @@ JavaNetworkWordCount application is used to listen tcp socket stream and count t
   To run this on your local machine, you need to first run a Netcat server
 $ nc -lk 9999
   hello world
+  
